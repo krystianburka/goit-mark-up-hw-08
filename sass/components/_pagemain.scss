@@ -1,0 +1,64 @@
+.main {
+  color: #ffffff;
+  background-color: var(--section-backroundcolor);
+  border-top: 1px solid #ececec;
+}
+
+.order {
+  max-width: 1600px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding-top: 94px;
+  padding-bottom: 94px;
+
+  background-image: linear-gradient(
+      to top,
+      rgba(0, 18, 105, 0) 0%,
+      rgba(47, 48, 58, 0.4) 100%
+    ),
+    url("../images/team_meeting.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.order__container {
+  max-width: 700px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 94px;
+  padding-bottom: 94px;
+  margin: 0;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.button {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 162%;
+  /* identical to box height, or 162% */
+  text-align: center;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  color: #ffffff;
+  border-radius: 4px;
+
+  border: none;
+  background-color: var(--button-color);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  &:focus,
+  &:hover {
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 0px 0px 19px 0px #000000;
+    box-shadow: 0px 10px 13px -7px #000000, 0px 0px 19px 0px #000000;
+    border-radius: 4px 4px 4px 4px;
+    transition: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}

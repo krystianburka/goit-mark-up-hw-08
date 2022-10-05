@@ -1,0 +1,94 @@
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding-left: 25px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-right: 25px;
+}
+
+.header__menu {
+  width: 1200px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 200%;
+  letter-spacing: 0.06em;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+  margin: 0px;
+}
+.header__logo {
+  font-family: var(--logo-font);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.link {
+  color: #212121;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 171%;
+  letter-spacing: 0.02em;
+  padding-right: 0px;
+  margin-left: 20px;
+  margin-right: 20px;
+  position: relative;
+
+  &:hover {
+    color: var(--hovercolor);
+    cursor: pointer;
+    background-color: transparent;
+  }
+
+  &:focus {
+    color: var(--hovercolor);
+    cursor: pointer;
+    background-color: transparent;
+  }
+}
+
+.link--contact {
+  line-height: 16px;
+  margin-right: 15px;
+}
+
+.header__contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact__icon {
+  fill: #757575;
+
+  &:hover,
+  .contact__link:hover {
+    fill: #2196f3;
+    cursor: pointer;
+  }
+}
+.link-nav__underline {
+  display: inline-block;
+  color: #2196f3;
+  position: relative;
+
+  &::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    background-color: #2196f3;
+    bottom: -37px;
+    left: 0;
+  }
+}
