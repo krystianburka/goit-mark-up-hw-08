@@ -38,6 +38,41 @@
           <a class="link__page" href="portfolio.html">Portfolio</a>
 
           <a class="link__page" href="#kontakt">Kontakt</a>
+          <div class="menu-container">
+            <div class="menu__box-flex">
+              <a
+                href="./index.html"
+                class="menu__link menu__link--current menu__link--top menu__link--bottom"
+                >Agencja</a
+              >
+              <a href="./portfolio.html" class="menu__link menu__link--bottom"
+                >Portfolio</a
+              >
+              <a href="#" class="menu__link">Kontakt</a>
+              <a
+                href="tel:+48111111111"
+                class="menu__link-second menu__link-second--backlight menu__link-second--top"
+                >+48 111 111 111</a
+              >
+              <a href="mailto:info@devstudio.com" class="menu__link-second"
+                >info@devstudio.com</a
+              >
+              <button type="button" class="close-menu">X</button>
+            </div>
+            <div class="menu__socials">
+              <span class="menu__socials--social-media">Instagram</span
+              ><span class="menu__socials--line">|</span>
+              <span class="menu__socials--social-media">Twitter</span
+              ><span class="menu__socials--line">|</span>
+              <span class="menu__socials--social-media">Facebook</span
+              ><span class="menu__socials--line">|</span>
+              <span class="menu__socials--social-media">LinkedIn</span>
+            </div>
+          </div>
+
+          <svg width="24" height="24" class="menu__icon open-menu">
+            <use href="./images/icons.svg#icon-menu"></use>
+          </svg>
         </nav>
         <div class="header__contact">
           <a class="link link--contact" href="mailto:info@devstudio.com">
@@ -131,7 +166,6 @@
             <li class="whatwedo__box">
               <p class="whatwedo__label">aplikacje komputerowe</p>
               <figure class="whatwedo__figure">
-                <!-- Dowolna treść graficzna: zdjęcie, wykres, diagram itp. -->
                 <img
                   src="images/block_diagram.jpg"
                   alt="block_diagram"
@@ -143,7 +177,6 @@
             <li class="whatwedo__box">
               <p class="whatwedo__label">aplikacje mobilne</p>
               <figure class="whatwedo__figure">
-                <!-- Dowolna treść graficzna: zdjęcie, wykres, diagram itp. -->
                 <img
                   src="images/mobileappdeveloper.jpg"
                   alt="mobileappdeveloper"
@@ -155,7 +188,6 @@
             <li class="whatwedo__box">
               <p class="whatwedo__label">rozwiązania graficzne</p>
               <figure class="whatwedo__figure">
-                <!-- Dowolna treść graficzna: zdjęcie, wykres, diagram itp. -->
                 <img
                   src="images/graphic_design.jpg"
                   alt="graphic_designer"
@@ -170,10 +202,9 @@
       <section class="team">
         <div class="team__container">
           <ul class="wrapper">
-            <li><h2 class="section__paragraf">Nasz zespół</h2></li>
+            <li class="section__paragraf"><h2>Nasz zespół</h2></li>
             <li class="team__box">
               <figure class="team__figure">
-                <!-- Dowolna treść graficzna: zdjęcie, wykres, diagram itp. -->
                 <img
                   src="images/produckt_designer.jpg"
                   alt="produckt_designer"
@@ -218,7 +249,6 @@
             </li>
             <li class="team__box">
               <figure class="team__figure">
-                <!-- Dowolna treść graficzna: zdjęcie, wykres, diagram itp. -->
                 <img
                   src="images/frontenddeveloper.jpg"
                   alt="frontenddeveloper"
@@ -264,7 +294,6 @@
 
             <li class="team__box">
               <figure class="team__figure">
-                <!-- Dowolna treść graficzna: zdjęcie, wykres, diagram itp. -->
                 <img
                   src="images/marketing.jpg"
                   alt="marketing"
@@ -309,7 +338,6 @@
             </li>
             <li class="team__box">
               <figure class="team__figure">
-                <!-- Dowolna treść graficzna: zdjęcie, wykres, diagram itp. -->
                 <img
                   src="images/ui_designer.jpg"
                   alt="ui_designer"
@@ -356,8 +384,10 @@
         </div>
       </section>
       <section class="clients">
+        
         <div class="clients__container">
-          <div class="wrapper">
+         
+          <div class="clients__wrapper">
             <h2 class="section__paragraf">Nasi klienci</h2>
 
             <div class="clients__box">
@@ -472,7 +502,7 @@
         </div>
       </div>
     </footer>
-    <div class="modal__backdrop modal__is-hidden" data-modal>
+    <!-- <div class="modal__backdrop modal__is-hidden" data-modal>
       <div class="modal__window">
         <svg class="modal__close-button" data-modal-close>
           <use href="./images/icons.svg#close-button"></use>
@@ -554,7 +584,8 @@
           </form>
         </div>
       </div>
-    </div>
+    </div> -->
+    <script defer src="./js/mobile-menu.js"></script>
     <script src="./js/modal.js"></script>
   </body>
 </html>

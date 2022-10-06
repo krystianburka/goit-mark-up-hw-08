@@ -87,3 +87,105 @@
   padding: 0;
   background-color: #ffffff;
 }
+
+@media screen and (min-width: 320px) and (max-width: 767px){
+
+  .team {
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    background-color: #f5f4fa;
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+  .team__container {
+ width: 450px;
+ 
+  }
+  .team__box {
+    width: 450px;
+    margin-bottom: 35px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .team__figure {
+    width: 450px;
+    margin: 0 auto;
+    padding-bottom: 15px;
+    background-color: #ffffff;
+    box-shadow: var(--box-shadow);
+    border-radius: var(--border-radius);
+  }
+  
+  .team__description {
+    
+    font-family: var(--main-font);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #757575;
+    background-color: #cc4141;
+    line-height: 30px;
+  }
+  
+  .section__paragraf {
+    width: 480px;
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    color: #212121;
+    text-decoration: solid;
+    text-align: center;
+    display: inline-block;
+    margin: 0;
+    background-color: #2196f3;
+  }
+  
+  .socials__icon {
+    margin-left: 5px;
+    margin-right: 5px;
+    fill: #757575;
+    background-color: #ffffff;
+    border-radius: 50%;
+  }
+  
+  .socials__icon--team {
+    margin-left: 5px;
+    margin-right: 5px;
+    fill: #757575;
+    background-color: #ffffff;
+    border-radius: 50%;
+  
+    &:hover {
+      fill: #ffffff;
+      background-color: #2196f3;
+      cursor: pointer;
+      transition: 250ms;
+    }
+  }
+  
+  .team__icons-box {
+    width: 450px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 0px;
+    margin: 0px;
+    padding: 0;
+    background-color: #ffffff;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px){
+
+}
+
+@media screen and (min-width: 1200px){
+
+}

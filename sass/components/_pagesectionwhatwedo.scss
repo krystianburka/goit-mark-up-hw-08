@@ -55,3 +55,24 @@
   margin: 0 auto;
   background-color: #ffffff;
 }
+
+@media screen and (min-width: 320px) and (max-width: 767px){
+  .whatwedo {
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    padding-top: 94px;
+    padding-bottom: 94px;
+    // background-color: aquamarine;
+    display: none;
+  }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px){
+
+}
+
+@media screen and (min-width: 1200px){
+
+}
