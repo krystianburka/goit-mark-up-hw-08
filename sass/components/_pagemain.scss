@@ -1,39 +1,35 @@
-.main {
-  color: #ffffff;
-  background-color: var(--section-backroundcolor);
-  border-top: 1px solid #ececec;
-}
-
 .order {
-  max-width: 1600px;
-  display: flex;
-  justify-content: center;
-  margin: auto;
-  padding-top: 94px;
-  padding-bottom: 94px;
-
-  background-image: linear-gradient(
-      to top,
-      rgba(0, 18, 105, 0) 0%,
-      rgba(47, 48, 58, 0.4) 100%
-    ),
-    url("../images/team_meeting.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-.order__container {
-  max-width: 700px;
+  background-color: #2f303a;
   color: #ffffff;
+  min-height: 252px;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-top: 94px;
-  padding-bottom: 94px;
-  margin: 0;
-  padding-right: 0;
-  padding-left: 0;
+  border-top: 1px solid #ececec;
+
+  .order__container {
+    width: 1600px;
+    height: 600px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 94px;
+    padding-bottom: 94px;
+    margin: 0;
+    padding-right: 0;
+    padding-left: 0;
+    background-image: linear-gradient(
+        to top,
+        rgba(0, 18, 105, 0) 0%,
+        rgba(47, 48, 58, 0.4) 100%
+      ),
+      url("../images/team_meeting.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
 }
 
 .button {

@@ -25,6 +25,7 @@
 
 .footer__container {
   display: flex;
+  justify-content: space-between;
   width: 1200px;
 }
 
@@ -119,8 +120,6 @@
   fill: #ffffff;
   width: 24px;
   height: 24px;
-  padding: 0;
-  margin: 0;
   margin-left: 24px;
 }
 
@@ -129,11 +128,8 @@
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.03em;
-  margin: 0px;
-  color: #ffffff;
-  text-align: start;
+  line-height: 30px;
+  letter-spacing: 0.06em;
 }
 
 .form-newsletter__input {
@@ -155,21 +151,16 @@
 }
 
 .button--newsletter {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   margin-left: 12px;
-  transition-duration: 0, 4s;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 162%;
   letter-spacing: 0.03em;
   cursor: pointer;
   color: #ffffff;
   border-radius: 4px;
   background-color: #2196f3;
   border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-decoration: none;
   height: 50px;
   width: 200px;
@@ -305,27 +296,18 @@
   left: 0;
 }
 
-.main {
+.order {
+  background-color: #2f303a;
   color: #ffffff;
-  background-color: var(--section-backroundcolor);
+  min-height: 252px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border-top: 1px solid #ececec;
 }
-
-.order {
-  max-width: 1600px;
-  display: flex;
-  justify-content: center;
-  margin: auto;
-  padding-top: 94px;
-  padding-bottom: 94px;
-  background-image: linear-gradient(to top, rgba(0, 18, 105, 0) 0%, rgba(47, 48, 58, 0.4) 100%), url("../images/team_meeting.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.order__container {
-  max-width: 700px;
+.order .order__container {
+  width: 1600px;
+  height: 600px;
   color: #ffffff;
   display: flex;
   flex-direction: column;
@@ -336,6 +318,10 @@
   margin: 0;
   padding-right: 0;
   padding-left: 0;
+  background-image: linear-gradient(to top, rgba(0, 18, 105, 0) 0%, rgba(47, 48, 58, 0.4) 100%), url("../images/team_meeting.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .button {
@@ -411,13 +397,18 @@
   padding-bottom: 50px;
 }
 
-.lorem {
+.article {
   color: #ffffff;
   padding-top: 94px;
   padding-bottom: 94px;
 }
 
-.lorem__description {
+.article__container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.article__description {
   /* margin: 10 15px 15px; */
   font-family: "Roboto";
   font-style: normal;
@@ -432,7 +423,7 @@
   text-align: justify;
 }
 
-.lorem__lorem-box {
+.article__article-box {
   max-width: 270px;
   display: inline-block;
   padding-right: 0px;
@@ -440,7 +431,7 @@
   padding: 0;
 }
 
-.lorem__icon-box {
+.article__icon-box {
   width: 270px;
   height: 120px;
   display: flex;
@@ -455,7 +446,7 @@
   background-color: #f5f4fa;
 }
 
-.lorem-box__paragraf {
+.article-box__paragraf {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -468,7 +459,7 @@
   margin: 0;
 }
 
-.main__portfolio {
+.slider__container {
   color: #ffffff;
   display: flex;
   flex-direction: column;
@@ -485,7 +476,7 @@
   overflow: hidden;
 }
 
-.container {
+.portfolio__container {
   max-width: 1200px;
   margin: 0 auto;
 }
