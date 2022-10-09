@@ -38,41 +38,24 @@
           <a class="link__page" href="portfolio.html">Portfolio</a>
 
           <a class="link__page" href="#kontakt">Kontakt</a>
-          <div class="menu-container">
-            <div class="menu__box-flex">
-              <a
-                href="./index.html"
-                class="menu__link menu__link--current menu__link--top menu__link--bottom"
-                >Agencja</a
-              >
-              <a href="./portfolio.html" class="menu__link menu__link--bottom"
-                >Portfolio</a
-              >
-              <a href="#" class="menu__link">Kontakt</a>
-              <a
-                href="tel:+48111111111"
-                class="menu__link-second menu__link-second--backlight menu__link-second--top"
-                >+48 111 111 111</a
-              >
-              <a href="mailto:info@devstudio.com" class="menu__link-second"
-                >info@devstudio.com</a
-              >
-              <button type="button" class="close-menu">X</button>
-            </div>
-            <div class="menu__socials">
-              <span class="menu__socials--social-media">Instagram</span
-              ><span class="menu__socials--line">|</span>
-              <span class="menu__socials--social-media">Twitter</span
-              ><span class="menu__socials--line">|</span>
-              <span class="menu__socials--social-media">Facebook</span
-              ><span class="menu__socials--line">|</span>
-              <span class="menu__socials--social-media">LinkedIn</span>
-            </div>
-          </div>
-
-          <svg width="24" height="24" class="menu__icon open-menu">
-            <use href="./images/icons.svg#icon-menu"></use>
-          </svg>
+          <div class="js-menu__box-flex">
+            <a href="./index.html" class="js-menu__link js-menu__link--current js-menu__link--top js-menu__link--bottom">Agencja</a>
+            <a href="./portfolio.html" class="js-menu__link js-menu__link--bottom">Portfolio</a>
+            <a href="#" class="js-menu__link">Kontakt</a>
+            <a href="tel:+48111111111" class="js-menu__link-second js-menu__link-second--backlight js-menu__link-second--top">+48 111 111 111</a>
+            <a href="mailto:info@devstudio.com" class="js-menu__link-second">info@devstudio.com</a>
+            <button type="button" class="js-close-menu">X</button>
+        </div>
+        <div class="js-menu__socials">
+            <span class="js-menu__socials--social-media">Instagram</span><span class="js-menu__socials--line">|</span>
+            <span class="js-menu__socials--social-media">Twitter</span><span class="js-menu__socials--line">|</span>
+            <span class="js-menu__socials--social-media">Facebook</span><span class="js-menu__socials--line">|</span>
+            <span class="js-menu__socials--social-media">LinkedIn</span>
+        </div>
+    </div>
+    <svg width="24" height="24" class="js-menu__icon js-open-menu">
+        <use href="./images/icons.svg#icon-menu"></use>
+    </svg>
         </nav>
         <div class="header__contact">
           <a class="link link--contact" href="mailto:info@devstudio.com">
@@ -193,6 +176,7 @@
                   alt="graphic_designer"
                   width="370"
                   height="294"
+
                 />
               </figure>
             </li>
@@ -206,10 +190,11 @@
             <li class="team__box">
               <figure class="team__figure">
                 <img
-                  src="images/produckt_designer.jpg"
+                  src="images/pr.jpg"
                   alt="produckt_designer"
-                  width="270"
-                  height="260"
+                  width="450"
+                  height="460"
+                  class="img"
                 />
                 <figcaption class="team__description">
                   <strong>John Doe</strong>
@@ -252,8 +237,9 @@
                 <img
                   src="images/frontenddeveloper.jpg"
                   alt="frontenddeveloper"
-                  width="270"
-                  height="260"
+                  width="450"
+                  height="460"
+                  class="img"
                 />
                 <figcaption class="team__description">
                   <strong>John Doe </strong>
@@ -297,8 +283,9 @@
                 <img
                   src="images/marketing.jpg"
                   alt="marketing"
-                  width="270"
-                  height="260"
+                  width="450"
+                  height="460"
+                  class="img"
                 />
                 <figcaption class="team__description">
                   <strong>John Doe </strong>
@@ -341,8 +328,9 @@
                 <img
                   src="images/ui_designer.jpg"
                   alt="ui_designer"
-                  width="270"
-                  height="260"
+                  width="450"
+                  height="460"
+                  class="img"
                 />
                 <figcaption class="team__description">
                   <strong>John Doe</strong>
@@ -384,9 +372,7 @@
         </div>
       </section>
       <section class="clients">
-        
         <div class="clients__container">
-         
           <div class="clients__wrapper">
             <h2 class="section__paragraf">Nasi klienci</h2>
 
@@ -435,12 +421,12 @@
           <i>m. Warszawa, Aleje Jerozolimskie 21</i>
 
           <a
-            class="link__page link__page--footer"
+            class="link-footer__page link-footer__page--footer"
             href="mailto:info@devstudio.com"
             >info@devstudio.com</a
           >
 
-          <a class="link__page link__page--footer" href="tel:+48111111111"
+          <a class="link-footer__page link-footer__page--footer" href="tel:+48111111111"
             >+48 111 111 111</a
           >
         </div>
