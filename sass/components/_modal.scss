@@ -1,4 +1,4 @@
-.modal__backdrop {
+.modal {
   position: fixed;
   left: 0;
   top: 0;
@@ -6,7 +6,7 @@
   height: 100%;
   background-color: rgba(0, 0, 0, 0.2);
 }
-.modal__window {
+.modal__container {
   position: absolute;
   top: 50%;
   left: 50%;

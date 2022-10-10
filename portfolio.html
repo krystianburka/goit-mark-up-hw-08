@@ -30,7 +30,7 @@
           ><span style="color: #000000">Studio</span></a
         >
 
-        <nav>
+        <nav class="nav">
           <a class="link__page" href="index.html">Agnecja</a>
 
           <a class="link__page link-nav__underline" href="portfolio.html"
@@ -38,6 +38,39 @@
           >
 
           <a class="link__page" href="#kontakt">Kontakt</a>
+          <div class="menu-container">
+            <div class="menu-wrap">
+              <a class="mobile-link" href="./index.html">Agencja</a>
+              <a class="mobile-link" href="./portfolio.html">Portfolio</a>
+              <a class="mobile-link" href="#">Kontakt</a>
+            </div>
+            <div class="menu-wrap menu-wrap--contact">
+              <a class="mobile-link mobile-link--phone" href="tel:+48111111111"
+                >+48 111 111 111</a
+              >
+              <a
+                class="mobile-link mobile-link--mail"
+                href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </div>
+            <div class="menu-wrap--socials">
+              <a class="menu-socials">Instagram</a
+              ><span class="menu-socials-line">|</span>
+              <a class="menu-socials">Twitter</a
+              ><span class="menu-socials-line">|</span>
+              <a class="menu-socials">Facebook</a
+              ><span class="menu-socials-line">|</span>
+              <a class="menu-socials">LinkedIn</a>
+            </div>
+            <svg width="24" height="24" class="mobile-closebutton close-menu">
+              <use href="./images/icons.svg#close-buttonm"></use>
+            </svg>
+          </div>
+
+          <svg width="24" height="24" class="open-menu">
+            <use href="./images/icons.svg#icon-menu"></use>
+          </svg>
         </nav>
         <div class="header__contact">
           <a class="link link--contact" href="mailto:info@devstudio.com">
@@ -57,7 +90,7 @@
         </div>
       </div>
     </header>
-    <!-- <main>
+    <main>
       <div class="slider__container">
         <div class="wrapper">
           <button type="button" class="button button--portfolio">
@@ -83,7 +116,6 @@
           <div class="wrapper">
             <div class="portfolio__box">
               <figure class="portfolio__figure">
-                
                 <div class="figure__onlay">
                   <img
                     src="images/technocrack_website.jpg"
@@ -124,7 +156,7 @@
                     </p>
                   </div>
                 </div>
-               
+
                 <figcaption class="description-portfolio">
                   <strong>Grafika New Orlean vs. Golden Star </strong>
                   Dizajn
@@ -149,7 +181,7 @@
                     </p>
                   </div>
                 </div>
-               
+
                 <figcaption class="description-portfolio">
                   <strong>Restauracja Seafood </strong>
                   Aplikacja
@@ -174,7 +206,7 @@
                     </p>
                   </div>
                 </div>
-               
+
                 <figcaption class="description-portfolio">
                   <strong>Projekt Prime</strong>
                   Marketing
@@ -199,7 +231,7 @@
                     </p>
                   </div>
                 </div>
-              
+
                 <figcaption class="description-portfolio">
                   <strong>Projekt Boxes</strong>
                   Aplikacja
@@ -224,7 +256,7 @@
                     </p>
                   </div>
                 </div>
-               
+
                 <figcaption class="description-portfolio">
                   <strong>Inspiration has no Borders</strong>
                   Strona internetowa
@@ -249,7 +281,7 @@
                     </p>
                   </div>
                 </div>
-               
+
                 <figcaption class="description-portfolio">
                   <strong>Magazyn Limited Edition</strong>
                   Dizajn
@@ -274,7 +306,7 @@
                     </p>
                   </div>
                 </div>
-               
+
                 <figcaption class="description-portfolio">
                   <strong>Projekt LAB</strong>
                   Marketing
@@ -299,7 +331,7 @@
                     </p>
                   </div>
                 </div>
-               
+
                 <figcaption class="description-portfolio">
                   <strong>Growing Business</strong>
                   Aplikacja
@@ -321,12 +353,14 @@
           <i>m. Warszawa, Aleje Jerozolimskie 21</i>
 
           <a
-            class="link__page link__page--footer"
+            class="link-footer__page link-footer__page--footer"
             href="mailto:info@devstudio.com"
             >info@devstudio.com</a
           >
 
-          <a class="link__page link__page--footer" href="tel:+48111111111"
+          <a
+            class="link-footer__page link-footer__page--footer"
+            href="tel:+48111111111"
             >+48 111 111 111</a
           >
         </div>
@@ -387,7 +421,8 @@
           </form>
         </div>
       </div>
-    </footer> -->
+    </footer>
+    <script defer src="./js/mobile-menu.js"></script>
     <script src="./js/modal.js"></script>
   </body>
 </html>
