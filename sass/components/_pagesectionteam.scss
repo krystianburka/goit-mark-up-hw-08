@@ -9,12 +9,16 @@
   }
   .team__container {
     width: 450px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
   .team__box {
     width: 450px;
     margin-bottom: 35px;
     display: flex;
     justify-content: center;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 
   .team__figure {
@@ -46,7 +50,7 @@
   }
 
   .section__paragraf {
-    width: 480px;
+    width: 450px;
     font-family: var(--main-font);
     font-style: normal;
     font-weight: 900;

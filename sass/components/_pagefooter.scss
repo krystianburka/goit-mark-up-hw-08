@@ -13,7 +13,9 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    width: 480px;
+    width: 450px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 
   .footer__address {
@@ -23,7 +25,9 @@
     align-items: center;
     padding-top: 60px;
     padding-bottom: 0px;
-    width: 480px;
+    width: 450px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 
   .footer__logo {
@@ -52,6 +56,8 @@
     display: flex;
     padding-right: 0px;
     padding: 0;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 
   .socials__icons--footer {
@@ -129,10 +135,12 @@
   .form-newsletter__input {
     background-color: transparent;
     height: 50px;
-    min-width: 480px;
+    width: 450px;
     border-radius: 6px;
     margin: 0;
     border-color: #757575;
+    padding-left: 15px;
+    padding-right: 15px;
 
     border-style: solid;
     color: #ffffff;
