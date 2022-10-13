@@ -2373,7 +2373,6 @@
     position: fixed;
     height: 800px;
     background-color: white;
-    transform: translateX(500px);
     transform: scaleX(0);
     transition: transform 1s;
     padding-left: 15px;
@@ -2387,7 +2386,6 @@
     z-index: 2;
   }
   .is-open {
-    transform: translateX(0);
     transform: scaleX(1);
     opacity: 1;
     pointer-events: all;
