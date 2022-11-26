@@ -227,7 +227,7 @@
     width: 384px;
   }
   .footer__logo {
-    font-family: var(--logo-font);
+    font-family: var(--logolll-font);
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
@@ -2377,10 +2377,9 @@
     transition: transform 1s;
     padding-left: 15px;
     padding-right: 15px;
-    margin-left: 150px;
     opacity: 0;
     pointer-events: none;
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     z-index: 2;
@@ -2400,9 +2399,9 @@
     background-color: transparent;
   }
   .open-menu {
-    position: relative;
-    top: 12px;
-    right: 25px;
+    position: absolute;
+    top: 0;
+    right: 0;
   }
   .close-menu {
     position: absolute;
