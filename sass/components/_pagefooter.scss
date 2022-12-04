@@ -2,7 +2,8 @@
   .footer {
     background-color: #2f303a;
     color: #ffffff;
-    min-height: 252px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -35,7 +36,7 @@
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.19;
     letter-spacing: 0.03em;
     text-decoration: none;
     padding-bottom: 20px;
@@ -77,7 +78,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     margin: 0px;
     padding-bottom: 20px;
@@ -99,7 +100,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
     /* or 171% */
     letter-spacing: 0.03em;
     margin: 0px;
@@ -129,7 +130,7 @@
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.8;
     letter-spacing: 0.06em;
   }
   .form-newsletter__input {
@@ -187,7 +188,7 @@
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 171%;
+    line-height: 1.71;
     letter-spacing: 0.02em;
     padding-top: 10px;
     margin-left: 20px;
@@ -202,7 +203,7 @@
   }
 
   .link--contact {
-    line-height: 16px;
+    line-height: 1.17;
     margin-right: 15px;
   }
 
@@ -220,6 +221,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 65px;
+    padding-bottom: 60px;
   }
 
   .footer__container {
@@ -244,7 +247,7 @@
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.19;
     letter-spacing: 0.03em;
     text-decoration: none;
     padding-bottom: 0px;
@@ -284,7 +287,7 @@
     font-style: normal;
     font-weight: 900;
     font-size: 16px;
-    line-height: 60px;
+    line-height: 16;
     text-transform: uppercase;
     letter-spacing: 0.03em;
     color: #ffffff;
@@ -304,7 +307,7 @@
     font-style: normal;
     font-weight: 900;
     font-size: 16px;
-    line-height: 60px;
+    line-height: 16;
     text-transform: uppercase;
     letter-spacing: 0.03em;
     color: #ffffff;
@@ -334,7 +337,7 @@
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.8;
     letter-spacing: 0.06em;
   }
   .form-newsletter__input {
@@ -390,7 +393,7 @@
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 171%;
+    line-height: 1.17;
     letter-spacing: 0.02em;
     padding-top: 10px;
     margin-left: 20px;
@@ -420,8 +423,10 @@
   .footer {
     background-color: #2f303a;
     color: #ffffff;
-    min-height: 252px;
+    padding-top: 126px;
+    padding-bottom: 126px;
     display: flex;
+
     align-items: center;
     justify-content: center;
   }
@@ -444,7 +449,7 @@
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.19;
     letter-spacing: 0.03em;
     text-decoration: none;
   }
@@ -483,7 +488,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     margin: 0px;
     padding-bottom: 20px;
@@ -504,7 +509,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.17;
     /* or 171% */
     letter-spacing: 0.03em;
     margin: 0px;
@@ -529,7 +534,7 @@
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.17;
     letter-spacing: 0.06em;
   }
   .form-newsletter__input {
@@ -586,7 +591,7 @@
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 171%;
+    line-height: 1.17;
     letter-spacing: 0.02em;
     padding-top: 3px;
 

@@ -46,7 +46,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
-    line-height: 14px;
+    line-height: 1.16;
     letter-spacing: 0.01em;
     color: #757575;
   }
@@ -55,7 +55,7 @@
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
-    line-height: 23px;
+    line-height: 1.15;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
@@ -70,8 +70,10 @@
     padding-bottom: 50px;
   }
   .modal-order__input {
+    font-size: 12px;
     width: 510px;
-    height: 40px;
+    padding-top: 14px;
+    padding-bottom: 14px;
     border-radius: 6px;
     margin: 0;
     border-color: var(--border-color);
@@ -82,7 +84,9 @@
 
   .modal-order__comment {
     width: 430px;
-    height: 120px;
+    font-size: 12px;
+    padding-top: 14px;
+    padding-bottom: 14px;
     background-color: transparent;
     border-radius: 6px;
     margin: 0;
@@ -105,7 +109,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     padding-bottom: 30px;
     color: #757575;
@@ -142,7 +146,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     padding-bottom: 30px;
     padding-left: 35px;
@@ -157,7 +161,7 @@
       top: 18px;
       width: 16px;
       height: 15px;
-      border: 2px solid rgb(23, 23, 23);
+      border: 1px solid rgb(23, 23, 23);
       border-radius: 2px;
       transition: transform 0, 5s;
       background-repeat: no-repeat;
@@ -196,7 +200,7 @@
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 162%;
+    line-height: 1.62;
     letter-spacing: 0.03em;
     cursor: pointer;
     color: #ffffff;
@@ -274,7 +278,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
-    line-height: 14px;
+    line-height: 1.16;
     letter-spacing: 0.01em;
     color: #757575;
   }
@@ -283,7 +287,7 @@
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
-    line-height: 23px;
+    line-height: 1.15;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
@@ -299,7 +303,9 @@
   }
   .modal-order__input {
     min-width: 510px;
-    height: 40px;
+    padding-top: 14px;
+    font-size: 12px;
+    padding-bottom: 14px;
     border-radius: 6px;
     margin: 0;
     border-color: var(--border-color);
@@ -310,7 +316,9 @@
 
   .modal-order__comment {
     min-width: 510px;
-    height: 120px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    font-size: 12px;
     background-color: transparent;
     border-radius: 6px;
     margin: 0;
@@ -333,7 +341,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.15;
     letter-spacing: 0.03em;
     padding-bottom: 30px;
     color: #757575;
@@ -370,7 +378,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.15;
     letter-spacing: 0.03em;
     padding-bottom: 30px;
     padding-left: 35px;
@@ -385,7 +393,7 @@
       top: 18px;
       width: 16px;
       height: 15px;
-      border: 2px solid rgb(23, 23, 23);
+      border: 1px solid rgb(23, 23, 23);
       border-radius: 2px;
       transition: transform 0, 5s;
       background-repeat: no-repeat;
@@ -424,7 +432,7 @@
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 162%;
+    line-height: 1.62;
     letter-spacing: 0.03em;
     cursor: pointer;
     color: #ffffff;
@@ -502,7 +510,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
-    line-height: 14px;
+    line-height: 1.15;
     letter-spacing: 0.01em;
     color: #757575;
   }
@@ -511,7 +519,7 @@
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
-    line-height: 23px;
+    line-height: 1.15;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
@@ -527,7 +535,9 @@
   }
   .modal-order__input {
     min-width: 510px;
-    height: 40px;
+    padding-top: 14px;
+    font-size: 12px;
+    padding-bottom: 14px;
     border-radius: 6px;
     margin: 0;
     border-color: var(--border-color);
@@ -538,7 +548,9 @@
 
   .modal-order__comment {
     min-width: 510px;
-    height: 120px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    font-size: 12px;
     background-color: transparent;
     border-radius: 6px;
     margin: 0;
@@ -561,7 +573,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     padding-bottom: 30px;
     color: #757575;
@@ -598,7 +610,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     padding-bottom: 30px;
     padding-left: 35px;
@@ -614,7 +626,7 @@
       width: 16px;
       height: 15px;
       border: 2px solid rgb(23, 23, 23);
-      border-radius: 2px;
+      border-radius: 1px;
       transition: transform 0, 5s;
       background-repeat: no-repeat;
       background-size: auto 100%;
@@ -652,7 +664,7 @@
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 162%;
+    line-height: 1.62;
     letter-spacing: 0.03em;
     cursor: pointer;
     color: #ffffff;

@@ -10,7 +10,8 @@
   }
   .order__container {
     width: 480px;
-    height: 400px;
+    padding-top: 118px;
+    padding-bottom: 118px;
     color: #ffffff;
     background-image: linear-gradient(
         to top,
@@ -37,7 +38,7 @@
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 162%;
+    line-height: 1.17;
     /* identical to box height, or 162% */
     text-align: center;
     letter-spacing: 0.03em;
@@ -65,7 +66,8 @@
   .order {
     background-color: #2f303a;
     color: #ffffff;
-    min-height: 252px;
+    padding-top: 118px;
+    padding-bottom: 118px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -102,7 +104,7 @@
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 162%;
+    line-height: 1.17;
     /* identical to box height, or 162% */
     text-align: center;
     letter-spacing: 0.03em;
@@ -138,14 +140,14 @@
 
     .order__container {
       width: 1600px;
-      height: 600px;
+
       color: #ffffff;
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      padding-top: 94px;
-      padding-bottom: 94px;
+      padding-top: 200px;
+      padding-bottom: 200px;
       margin: 0;
       padding-right: 0;
       padding-left: 0;
@@ -165,7 +167,7 @@
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 162%;
+    line-height: 1.17;
     /* identical to box height, or 162% */
     text-align: center;
     letter-spacing: 0.03em;

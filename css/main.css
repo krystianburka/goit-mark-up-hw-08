@@ -18,7 +18,8 @@
   .footer {
     background-color: #2f303a;
     color: #ffffff;
-    min-height: 252px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -48,7 +49,7 @@
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.19;
     letter-spacing: 0.03em;
     text-decoration: none;
     padding-bottom: 20px;
@@ -84,7 +85,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     margin: 0px;
     padding-bottom: 20px;
@@ -105,7 +106,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
     /* or 171% */
     letter-spacing: 0.03em;
     margin: 0px;
@@ -132,7 +133,7 @@
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.8;
     letter-spacing: 0.06em;
   }
   .form-newsletter__input {
@@ -182,7 +183,7 @@
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 171%;
+    line-height: 1.71;
     letter-spacing: 0.02em;
     padding-top: 10px;
     margin-left: 20px;
@@ -195,7 +196,7 @@
     background-color: transparent;
   }
   .link--contact {
-    line-height: 16px;
+    line-height: 1.17;
     margin-right: 15px;
   }
   .link__page--footer {
@@ -211,6 +212,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 65px;
+    padding-bottom: 60px;
   }
   .footer__container {
     display: flex;
@@ -231,7 +234,7 @@
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.19;
     letter-spacing: 0.03em;
     text-decoration: none;
     padding-bottom: 0px;
@@ -267,7 +270,7 @@
     font-style: normal;
     font-weight: 900;
     font-size: 16px;
-    line-height: 60px;
+    line-height: 16;
     text-transform: uppercase;
     letter-spacing: 0.03em;
     color: #ffffff;
@@ -284,7 +287,7 @@
     font-style: normal;
     font-weight: 900;
     font-size: 16px;
-    line-height: 60px;
+    line-height: 16;
     text-transform: uppercase;
     letter-spacing: 0.03em;
     color: #ffffff;
@@ -312,7 +315,7 @@
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.8;
     letter-spacing: 0.06em;
   }
   .form-newsletter__input {
@@ -360,7 +363,7 @@
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 171%;
+    line-height: 1.17;
     letter-spacing: 0.02em;
     padding-top: 10px;
     margin-left: 20px;
@@ -386,7 +389,8 @@
   .footer {
     background-color: #2f303a;
     color: #ffffff;
-    min-height: 252px;
+    padding-top: 126px;
+    padding-bottom: 126px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -407,7 +411,7 @@
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.19;
     letter-spacing: 0.03em;
     text-decoration: none;
   }
@@ -441,7 +445,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     margin: 0px;
     padding-bottom: 20px;
@@ -461,7 +465,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.17;
     /* or 171% */
     letter-spacing: 0.03em;
     margin: 0px;
@@ -485,7 +489,7 @@
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.17;
     letter-spacing: 0.06em;
   }
   .form-newsletter__input {
@@ -534,7 +538,7 @@
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 171%;
+    line-height: 1.17;
     letter-spacing: 0.02em;
     padding-top: 3px;
     position: relative;
@@ -561,18 +565,18 @@
   }
   .header__menu {
     width: 450px;
-    height: 60px;
     padding-left: 15px;
     padding-right: 15px;
     font-style: normal;
     font-weight: 700;
-    font-size: 18px;
-    line-height: 200%;
+    font-size: 14px;
+    line-height: 1.17;
     letter-spacing: 0.06em;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     margin: 0px;
   }
   .header__logo {
@@ -582,7 +586,7 @@
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.19;
     letter-spacing: 0.03em;
     text-decoration: none;
   }
@@ -592,7 +596,7 @@
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 171%;
+    line-height: 1.19;
     letter-spacing: 0.02em;
     padding-right: 0px;
     margin-left: 20px;
@@ -616,7 +620,7 @@
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 171%;
+    line-height: 1.17;
     letter-spacing: 0.02em;
     padding-right: 0px;
     margin-left: 20px;
@@ -630,7 +634,7 @@
     background-color: transparent;
   }
   .link--contact {
-    line-height: 16px;
+    line-height: 1.17;
     margin-right: 15px;
     display: none;
   }
@@ -661,7 +665,7 @@
     width: 100%;
     height: 5px;
     background-color: #2196f3;
-    bottom: -37px;
+    bottom: -20px;
     left: 0;
   }
 }
@@ -675,16 +679,16 @@
   }
   .header__menu {
     width: 768px;
-    height: 80px;
     font-style: normal;
     font-weight: 700;
-    font-size: 18px;
-    line-height: 200%;
+    font-size: 14px;
+    line-height: 1.17;
     letter-spacing: 0.06em;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     margin: 0px;
   }
   .header__logo {
@@ -694,7 +698,7 @@
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.19;
     letter-spacing: 0.03em;
     text-decoration: none;
   }
@@ -704,7 +708,7 @@
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 171%;
+    line-height: 1.17;
     letter-spacing: 0.02em;
     padding-right: 0px;
     margin-left: 20px;
@@ -727,7 +731,7 @@
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 171%;
+    line-height: 1.17;
     letter-spacing: 0.02em;
     padding-right: 0px;
     margin-left: 20px;
@@ -740,7 +744,7 @@
     background-color: transparent;
   }
   .link--contact {
-    line-height: 16px;
+    line-height: 1.17;
     margin-right: 15px;
   }
   .header__contact {
@@ -767,7 +771,7 @@
     width: 100%;
     height: 5px;
     background-color: #2196f3;
-    bottom: -37px;
+    bottom: -44px;
     left: 0;
   }
 }
@@ -786,8 +790,8 @@
     width: 1200px;
     font-style: normal;
     font-weight: 700;
-    font-size: 18px;
-    line-height: 200%;
+    font-size: 14px;
+    line-height: 1.17;
     letter-spacing: 0.06em;
     display: flex;
     justify-content: space-between;
@@ -799,7 +803,7 @@
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.19;
     letter-spacing: 0.03em;
     text-decoration: none;
   }
@@ -809,7 +813,7 @@
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 171%;
+    line-height: 1.17;
     letter-spacing: 0.02em;
     padding-right: 0px;
     margin-left: 20px;
@@ -827,7 +831,7 @@
     background-color: transparent;
   }
   .link--contact {
-    line-height: 16px;
+    line-height: 1.17;
     margin-right: 15px;
   }
   .header__contact {
@@ -854,7 +858,7 @@
     width: 100%;
     height: 5px;
     background-color: #2196f3;
-    bottom: -37px;
+    bottom: -44px;
     left: 0;
   }
   .link__page {
@@ -863,7 +867,7 @@
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 171%;
+    line-height: 1.17;
     letter-spacing: 0.02em;
     padding-top: 3px;
     margin-left: 50px;
@@ -889,7 +893,8 @@
   }
   .order__container {
     width: 480px;
-    height: 400px;
+    padding-top: 118px;
+    padding-bottom: 118px;
     color: #ffffff;
     background-image: linear-gradient(to top, rgba(0, 18, 105, 0) 0%, rgba(47, 48, 58, 0.4) 100%), url("../images/tm-mobile.jpg");
     background-size: cover;
@@ -911,7 +916,7 @@
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 162%;
+    line-height: 1.17;
     /* identical to box height, or 162% */
     text-align: center;
     letter-spacing: 0.03em;
@@ -936,7 +941,8 @@
   .order {
     background-color: #2f303a;
     color: #ffffff;
-    min-height: 252px;
+    padding-top: 118px;
+    padding-bottom: 118px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -966,7 +972,7 @@
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 162%;
+    line-height: 1.17;
     /* identical to box height, or 162% */
     text-align: center;
     letter-spacing: 0.03em;
@@ -999,14 +1005,13 @@
   }
   .order .order__container {
     width: 1600px;
-    height: 600px;
     color: #ffffff;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-top: 94px;
-    padding-bottom: 94px;
+    padding-top: 200px;
+    padding-bottom: 200px;
     margin: 0;
     padding-right: 0;
     padding-left: 0;
@@ -1019,7 +1024,7 @@
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 162%;
+    line-height: 1.17;
     /* identical to box height, or 162% */
     text-align: center;
     letter-spacing: 0.03em;
@@ -1050,8 +1055,6 @@
   }
   .clients__container {
     color: #ffffff;
-    padding-left: 15px;
-    padding-right: 15px;
     width: 450px;
   }
   .clients__wrapper {
@@ -1087,19 +1090,18 @@
     transition: cubic-bezier(0.4, 0, 0.2, 1);
   }
   .clients__paragraf {
-    width: 450px;
+    width: 400px;
     font-family: var(--main-font);
     font-style: normal;
     font-weight: 900;
-    font-size: 28px;
-    line-height: 60px;
+    font-size: 44px;
+    line-height: 1.17;
     text-transform: uppercase;
     letter-spacing: 0.03em;
     color: #212121;
     text-decoration: solid;
     text-align: center;
-    padding-left: 15px;
-    padding-right: 15px;
+    display: inline-block;
     margin: 0;
     padding-bottom: 50px;
   }
@@ -1114,6 +1116,10 @@
   }
   .clients__container {
     color: #ffffff;
+    width: 768px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
   .clients__wrapper {
     width: 768px;
@@ -1146,17 +1152,20 @@
     transition: cubic-bezier(0.4, 0, 0.2, 1);
   }
   .clients__paragraf {
-    width: 450px;
+    width: 400px;
     font-family: var(--main-font);
     font-style: normal;
     font-weight: 900;
-    font-size: 28px;
-    line-height: 60px;
+    font-size: 44px;
+    line-height: 1.17;
     text-transform: uppercase;
     letter-spacing: 0.03em;
     color: #212121;
     text-decoration: solid;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin: 0;
     padding-bottom: 50px;
   }
@@ -1201,7 +1210,7 @@
     font-style: normal;
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
+    line-height: 1.17;
     text-transform: uppercase;
     letter-spacing: 0.03em;
     color: #212121;
@@ -1225,7 +1234,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.17;
     /* or 171% */
     letter-spacing: 0.03em;
     margin: 0px;
@@ -1256,7 +1265,7 @@
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #212121;
@@ -1277,7 +1286,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.17;
     /* or 171% */
     letter-spacing: 0.03em;
     margin: 0px;
@@ -1308,7 +1317,7 @@
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #212121;
@@ -1332,7 +1341,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.17;
     /* or 171% */
     letter-spacing: 0.03em;
     margin: 0px;
@@ -1366,7 +1375,7 @@
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #212121;
@@ -1827,7 +1836,7 @@
     color: #212121;
     font-weight: 500;
     font-size: 18px;
-    line-height: 19px;
+    line-height: 1.17;
     width: 450px;
     height: 60px;
     display: flex;
@@ -1917,7 +1926,7 @@
     color: #212121;
     font-weight: 500;
     font-size: 18px;
-    line-height: 19px;
+    line-height: 1.17;
     width: 354px;
     display: flex;
     flex-direction: column;
@@ -2008,25 +2017,9 @@
     max-width: 270px;
     padding-top: 30px;
     padding-bottom: 30px;
-    line-height: 30px;
+    line-height: 1.17;
     margin: 0%;
     gap: 0%;
-  }
-  .section__paragraf {
-    width: 1200px;
-    font-family: var(--main-font);
-    font-style: normal;
-    font-weight: 900;
-    font-size: 36px;
-    line-height: 60px;
-    text-transform: uppercase;
-    letter-spacing: 0.03em;
-    color: #212121;
-    text-decoration: solid;
-    text-align: center;
-    display: inline-block;
-    margin: 0;
-    padding-bottom: 50px;
   }
   .socials__icon {
     margin-left: 5px;
@@ -2098,7 +2091,7 @@
     font-style: normal;
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
+    line-height: 1.17;
     text-transform: uppercase;
     letter-spacing: 0.03em;
     color: #212121;
@@ -2126,9 +2119,8 @@
     background: rgba(47, 48, 58, 0.8);
     font-family: var(--main-font);
     font-style: normal;
-    font-weight: 100;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -2182,7 +2174,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
-    line-height: 14px;
+    line-height: 1.16;
     letter-spacing: 0.01em;
     color: #757575;
   }
@@ -2191,7 +2183,7 @@
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
-    line-height: 23px;
+    line-height: 1.15;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
@@ -2205,8 +2197,10 @@
     padding-bottom: 50px;
   }
   .modal-order__input {
+    font-size: 12px;
     width: 510px;
-    height: 40px;
+    padding-top: 14px;
+    padding-bottom: 14px;
     border-radius: 6px;
     margin: 0;
     border-color: var(--border-color);
@@ -2216,7 +2210,9 @@
   }
   .modal-order__comment {
     width: 430px;
-    height: 120px;
+    font-size: 12px;
+    padding-top: 14px;
+    padding-bottom: 14px;
     background-color: transparent;
     border-radius: 6px;
     margin: 0;
@@ -2237,7 +2233,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     padding-bottom: 30px;
     color: #757575;
@@ -2273,7 +2269,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     padding-bottom: 30px;
     padding-left: 35px;
@@ -2288,7 +2284,7 @@
     top: 18px;
     width: 16px;
     height: 15px;
-    border: 2px solid rgb(23, 23, 23);
+    border: 1px solid rgb(23, 23, 23);
     border-radius: 2px;
     transition: transform 0, 5s;
     background-repeat: no-repeat;
@@ -2324,7 +2320,7 @@
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 162%;
+    line-height: 1.62;
     letter-spacing: 0.03em;
     cursor: pointer;
     color: #ffffff;
@@ -2394,7 +2390,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
-    line-height: 14px;
+    line-height: 1.16;
     letter-spacing: 0.01em;
     color: #757575;
   }
@@ -2403,7 +2399,7 @@
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
-    line-height: 23px;
+    line-height: 1.15;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
@@ -2418,7 +2414,9 @@
   }
   .modal-order__input {
     min-width: 510px;
-    height: 40px;
+    padding-top: 14px;
+    font-size: 12px;
+    padding-bottom: 14px;
     border-radius: 6px;
     margin: 0;
     border-color: var(--border-color);
@@ -2428,7 +2426,9 @@
   }
   .modal-order__comment {
     min-width: 510px;
-    height: 120px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    font-size: 12px;
     background-color: transparent;
     border-radius: 6px;
     margin: 0;
@@ -2449,7 +2449,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.15;
     letter-spacing: 0.03em;
     padding-bottom: 30px;
     color: #757575;
@@ -2485,7 +2485,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.15;
     letter-spacing: 0.03em;
     padding-bottom: 30px;
     padding-left: 35px;
@@ -2500,7 +2500,7 @@
     top: 18px;
     width: 16px;
     height: 15px;
-    border: 2px solid rgb(23, 23, 23);
+    border: 1px solid rgb(23, 23, 23);
     border-radius: 2px;
     transition: transform 0, 5s;
     background-repeat: no-repeat;
@@ -2536,7 +2536,7 @@
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 162%;
+    line-height: 1.62;
     letter-spacing: 0.03em;
     cursor: pointer;
     color: #ffffff;
@@ -2606,7 +2606,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
-    line-height: 14px;
+    line-height: 1.15;
     letter-spacing: 0.01em;
     color: #757575;
   }
@@ -2615,7 +2615,7 @@
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
-    line-height: 23px;
+    line-height: 1.15;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
@@ -2630,7 +2630,9 @@
   }
   .modal-order__input {
     min-width: 510px;
-    height: 40px;
+    padding-top: 14px;
+    font-size: 12px;
+    padding-bottom: 14px;
     border-radius: 6px;
     margin: 0;
     border-color: var(--border-color);
@@ -2640,7 +2642,9 @@
   }
   .modal-order__comment {
     min-width: 510px;
-    height: 120px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    font-size: 12px;
     background-color: transparent;
     border-radius: 6px;
     margin: 0;
@@ -2661,7 +2665,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     padding-bottom: 30px;
     color: #757575;
@@ -2697,7 +2701,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     padding-bottom: 30px;
     padding-left: 35px;
@@ -2713,7 +2717,7 @@
     width: 16px;
     height: 15px;
     border: 2px solid rgb(23, 23, 23);
-    border-radius: 2px;
+    border-radius: 1px;
     transition: transform 0, 5s;
     background-repeat: no-repeat;
     background-size: auto 100%;
@@ -2748,7 +2752,7 @@
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 162%;
+    line-height: 1.62;
     letter-spacing: 0.03em;
     cursor: pointer;
     color: #ffffff;
@@ -2836,7 +2840,7 @@
     font-style: normal;
     font-weight: 500;
     font-size: 40px;
-    line-height: 47px;
+    line-height: 1.17;
     letter-spacing: 0.02em;
     padding-bottom: 36px;
     margin-left: 20px;
@@ -2887,7 +2891,7 @@
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
-    line-height: 22px;
+    line-height: 1.22;
     letter-spacing: 0.02em;
   }
   .menu-socials-line {
