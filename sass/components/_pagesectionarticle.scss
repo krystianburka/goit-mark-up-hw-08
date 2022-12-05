@@ -7,13 +7,12 @@
   }
 
   .article__description {
-    /* margin: 10 15px 15px; */
     font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.17;
-    /* or 171% */
+
     letter-spacing: 0.03em;
     margin: 0px;
     padding: 0px;
@@ -22,7 +21,7 @@
     text-align: justify;
   }
 
-  .article__article-box {
+  .article__box {
     max-width: 450px;
     display: inline-block;
   }
@@ -42,7 +41,7 @@
     background-color: #f5f4fa;
   }
 
-  .article-box__paragraf {
+  .article__paragraf {
     font-family: "Roboto";
     font-style: normal;
     font-weight: 700;
@@ -80,7 +79,7 @@
     text-align: justify;
   }
 
-  .article__article-box {
+  .article__box {
     max-width: 354px;
     display: inline-block;
   }
@@ -100,7 +99,7 @@
     background-color: #f5f4fa;
   }
 
-  .article-box__paragraf {
+  .article__paragraf {
     font-family: "Roboto";
     font-style: normal;
     font-weight: 700;
@@ -142,7 +141,7 @@
     text-align: justify;
   }
 
-  .article__article-box {
+  .article__box {
     max-width: 270px;
     display: inline-block;
 
@@ -166,7 +165,7 @@
     background-color: #f5f4fa;
   }
 
-  .article-box__paragraf {
+  .article__paragraf {
     font-family: "Roboto";
     font-style: normal;
     font-weight: 700;

@@ -1,0 +1,124 @@
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .order {
+      // background-color: #2f303a;
+      color: #ffffff;
+  
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-top: 1px solid #ececec;
+    }
+    .order__container {
+      min-width: 480px;
+      padding-top: 118px;
+      padding-bottom: 118px;
+      color: #ffffff;
+      background-image: linear-gradient(
+          to top,
+          rgba(0, 18, 105, 0) 0%,
+          rgba(47, 48, 58, 0.4) 100%
+        ),
+        url("../images/tm-mobile.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .order__header {
+      display: flex;
+      justify-content: center;
+      width: 365px;
+      height: 84px;
+      text-align: center;
+    }
+  
+  }
+  
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    .order {
+      // background-color: #2f303a;
+      color: #ffffff;
+      // padding-top: 118px;
+      // padding-bottom: 118px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-top: 1px solid #ececec;
+  
+      .order__container {
+        min-width: 768px;
+        height: 400px;
+        color: #ffffff;
+        background-image: linear-gradient(
+            to top,
+            rgba(0, 18, 105, 0) 0%,
+            rgba(47, 48, 58, 0.4) 100%
+          ),
+          url("../images/tm-tablet2.jpg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+  
+    .order__header {
+      display: flex;
+      justify-content: center;
+  
+      width: 365px;
+      height: 84px;
+      text-align: center;
+    }
+    
+  }
+  
+  @media screen and (min-width: 1200px) {
+    .order {
+      // background-color: #2f303a;
+      color: #ffffff;
+  
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-top: 1px solid #ececec;
+      background-image: linear-gradient(
+          to top,
+          rgba(0, 18, 105, 0) 0%,
+          rgba(47, 48, 58, 0.4) 100%
+        ),
+        url("../images/tm-tablet2.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+  
+      .order__container {
+        color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 200px;
+        padding-bottom: 200px;
+        margin: 0;
+        padding-right: 0;
+        padding-left: 0;
+      }
+    }
+    .order__header {
+      display: flex;
+      justify-content: center;
+      width: 696px;
+      height: 84px;
+      font-size: 44px;
+      text-align: center;
+    }
+  
+  }
+  

@@ -31,38 +31,68 @@
         >
 
         <nav class="nav">
-          <a class="link__page" href="index.html">Agnecja</a>
+          <ul>
+            <li class="nav__box">
+              <a class="nav__link" href="index.html">Agencja</a>
+            </li>
+            <li class="nav__box">
+              <a class="nav__link nav__link-underline" href="portfolio.html"
+                >Portfolio</a
+              >
+            </li>
+            <li class="nav__box">
+              <a class="nav__link" href="#kontakt">Kontakt</a>
+            </li>
+          </ul>
 
-          <a class="link__page link-nav__underline" href="portfolio.html"
-            >Portfolio</a
-          >
-
-          <a class="link__page" href="#kontakt">Kontakt</a>
           <div class="menu-container">
             <div class="menu-wrap">
-              <a class="mobile-link" href="./index.html">Agencja</a>
-              <a class="mobile-link" href="./portfolio.html">Portfolio</a>
-              <a class="mobile-link" href="#">Kontakt</a>
+              <ul>
+                <li class="nav__box">
+                  <a class="mobile-link" href="./index.html">Agencja</a>
+                </li>
+                <li class="nav__box">
+                  <a class="mobile-link" href="./portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav__box">
+                  <a class="mobile-link" href="#">Kontakt</a>
+                </li>
+              </ul>
             </div>
-            <div class="menu-wrap menu-wrap--contact">
-              <a class="mobile-link mobile-link--phone" href="tel:+48111111111"
-                >+48 111 111 111</a
-              >
-              <a
-                class="mobile-link mobile-link--mail"
-                href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
-            </div>
-            <div class="menu-wrap--socials">
-              <a class="menu-socials">Instagram</a
-              ><span class="menu-socials-line">|</span>
-              <a class="menu-socials">Twitter</a
-              ><span class="menu-socials-line">|</span>
-              <a class="menu-socials">Facebook</a
-              ><span class="menu-socials-line">|</span>
-              <a class="menu-socials">LinkedIn</a>
-            </div>
+            <ul class="menu-wrap menu-wrap--contact">
+              <li>
+                <a
+                  class="mobile-link mobile-link--phone"
+                  href="tel:+48111111111"
+                  >+48 111 111 111</a
+                >
+              </li>
+              <li>
+                <a
+                  class="mobile-link mobile-link--mail"
+                  href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+            </ul>
+            <ul class="menu-wrap--socials">
+              <li class="nav__box">
+                <a class="menu-socials">Instagram</a
+                ><span class="menu-socials-line">|</span>
+              </li>
+              <li class="nav__box">
+                <a class="menu-socials">Twitter</a
+                ><span class="menu-socials-line">|</span>
+              </li>
+              <li class="nav__box">
+                <a class="menu-socials">Facebook</a
+                ><span class="menu-socials-line">|</span>
+              </li>
+
+              <li class="nav__box">
+                <a class="menu-socials">LinkedIn</a>
+              </li>
+            </ul>
             <svg width="24" height="24" class="mobile-closebutton close-menu">
               <use href="./images/icons.svg#close-buttonm"></use>
             </svg>
@@ -134,7 +164,9 @@
                 </div>
                 <figcaption class="description-portfolio">
                   <strong>Technocrack</strong>
-                  Strona internetowa
+                  <p class="description-portfolio__subject">
+                    Strona internetowa
+                  </p>
                 </figcaption>
               </figure>
             </div>
@@ -159,7 +191,7 @@
 
                 <figcaption class="description-portfolio">
                   <strong>Grafika New Orlean vs. Golden Star </strong>
-                  Dizajn
+                  <p class="description-portfolio__subject">Dizajn</p>
                 </figcaption>
               </figure>
             </div>
@@ -184,7 +216,7 @@
 
                 <figcaption class="description-portfolio">
                   <strong>Restauracja Seafood </strong>
-                  Aplikacja
+                  <p class="description-portfolio__subject">Aplikacja</p>
                 </figcaption>
               </figure>
             </div>
@@ -209,7 +241,7 @@
 
                 <figcaption class="description-portfolio">
                   <strong>Projekt Prime</strong>
-                  Marketing
+                  <p class="description-portfolio__subject">Marketing</p>
                 </figcaption>
               </figure>
             </div>
@@ -234,7 +266,7 @@
 
                 <figcaption class="description-portfolio">
                   <strong>Projekt Boxes</strong>
-                  Aplikacja
+                  <p class="description-portfolio__subject">Aplikacja</p>
                 </figcaption>
               </figure>
             </div>
@@ -259,7 +291,9 @@
 
                 <figcaption class="description-portfolio">
                   <strong>Inspiration has no Borders</strong>
-                  Strona internetowa
+                  <p class="description-portfolio__subject">
+                    Strona internetowa
+                  </p>
                 </figcaption>
               </figure>
             </div>
@@ -284,7 +318,7 @@
 
                 <figcaption class="description-portfolio">
                   <strong>Magazyn Limited Edition</strong>
-                  Dizajn
+                  <p class="description-portfolio__subject">Dizajn</p>
                 </figcaption>
               </figure>
             </div>
@@ -309,7 +343,7 @@
 
                 <figcaption class="description-portfolio">
                   <strong>Projekt LAB</strong>
-                  Marketing
+                  <p class="description-portfolio__subject">Marketing</p>
                 </figcaption>
               </figure>
             </div>
@@ -334,7 +368,7 @@
 
                 <figcaption class="description-portfolio">
                   <strong>Growing Business</strong>
-                  Aplikacja
+                  <p class="description-portfolio__subject">Aplikacja</p>
                 </figcaption>
               </figure>
             </div>
@@ -350,7 +384,7 @@
             ><span style="color: #ffffff">Studio</span></a
           >
 
-          <i>m. Warszawa, Aleje Jerozolimskie 21</i>
+          <p>m. Warszawa, Aleje Jerozolimskie 21</p>
 
           <a
             class="link-footer__page link-footer__page--footer"

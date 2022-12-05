@@ -27,38 +27,68 @@
         >
 
         <nav class="nav">
-          <a class="link__page link-nav__underline" href="index.html"
-            >Agnecja</a
-          >
+          <ul>
+            <li class="nav__box">
+              <a class="nav__link nav__link-underline" href="index.html"
+                >Agencja</a
+              >
+            </li>
+            <li class="nav__box">
+              <a class="nav__link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav__box">
+              <a class="nav__link" href="#kontakt">Kontakt</a>
+            </li>
+          </ul>
 
-          <a class="link__page" href="portfolio.html">Portfolio</a>
-
-          <a class="link__page" href="#kontakt">Kontakt</a>
           <div class="menu-container">
             <div class="menu-wrap">
-              <a class="mobile-link" href="./index.html">Agencja</a>
-              <a class="mobile-link" href="./portfolio.html">Portfolio</a>
-              <a class="mobile-link" href="#">Kontakt</a>
+              <ul>
+                <li class="nav__box">
+                  <a class="mobile-link" href="./index.html">Agencja</a>
+                </li>
+                <li class="nav__box">
+                  <a class="mobile-link" href="./portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav__box">
+                  <a class="mobile-link" href="#">Kontakt</a>
+                </li>
+              </ul>
             </div>
-            <div class="menu-wrap menu-wrap--contact">
-              <a class="mobile-link mobile-link--phone" href="tel:+48111111111"
-                >+48 111 111 111</a
-              >
-              <a
-                class="mobile-link mobile-link--mail"
-                href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
-            </div>
-            <div class="menu-wrap--socials">
-              <a class="menu-socials">Instagram</a
-              ><span class="menu-socials-line">|</span>
-              <a class="menu-socials">Twitter</a
-              ><span class="menu-socials-line">|</span>
-              <a class="menu-socials">Facebook</a
-              ><span class="menu-socials-line">|</span>
-              <a class="menu-socials">LinkedIn</a>
-            </div>
+            <ul class="menu-wrap menu-wrap--contact">
+              <li>
+                <a
+                  class="mobile-link mobile-link--phone"
+                  href="tel:+48111111111"
+                  >+48 111 111 111</a
+                >
+              </li>
+              <li>
+                <a
+                  class="mobile-link mobile-link--mail"
+                  href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+            </ul>
+            <ul class="menu-wrap--socials">
+              <li class="nav__box">
+                <a class="menu-socials">Instagram</a
+                ><span class="menu-socials-line">|</span>
+              </li>
+              <li class="nav__box">
+                <a class="menu-socials">Twitter</a
+                ><span class="menu-socials-line">|</span>
+              </li>
+              <li class="nav__box">
+                <a class="menu-socials">Facebook</a
+                ><span class="menu-socials-line">|</span>
+              </li>
+
+              <li class="nav__box">
+                <a class="menu-socials">LinkedIn</a>
+              </li>
+            </ul>
             <svg width="24" height="24" class="mobile-closebutton close-menu">
               <use href="./images/icons.svg#close-buttonm"></use>
             </svg>
@@ -103,49 +133,49 @@
       <section class="article">
         <div class="article__container">
           <ul class="wrapper">
-            <li class="article__article-box">
+            <li class="article__box">
               <div class="article__icon-box">
                 <svg class="article__icon" width="100" height="150">
                   <use href="./images/icons.svg#icon-antenna-1"></use>
                 </svg>
               </div>
-              <h4 class="article-box__paragraf">LOREM IPSUM</h4>
+              <h4 class="article__paragraf">LOREM IPSUM</h4>
               <p class="article__description">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
                 arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
             </li>
-            <li class="article__article-box">
+            <li class="article__box">
               <div class="article__icon-box">
                 <svg class="article__icon" width="100" height="150">
                   <use href="./images/icons.svg#icon-clock-1"></use>
                 </svg>
               </div>
-              <h4 class="article-box__paragraf">LOREM IPSUM</h4>
+              <h4 class="article__paragraf">LOREM IPSUM</h4>
               <p class="article__description">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
                 arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
             </li>
-            <li class="article__article-box">
+            <li class="article__box">
               <div class="article__icon-box">
                 <svg class="article__icon" width="100" height="150">
                   <use href="./images/icons.svg#icon-diagram-1"></use>
                 </svg>
               </div>
-              <h4 class="article-box__paragraf">LOREM IPSUM</h4>
+              <h4 class="article__paragraf">LOREM IPSUM</h4>
               <p class="article__description">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
                 arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
             </li>
-            <li class="article__article-box">
+            <li class="article__box">
               <div class="article__icon-box">
                 <svg class="article__icon" width="100" height="150">
                   <use href="./images/icons.svg#icon-astronaut-1"></use>
                 </svg>
               </div>
-              <h4 class="article-box__paragraf">LOREM IPSUM</h4>
+              <h4 class="article__paragraf">LOREM IPSUM</h4>
               <p class="article__description">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
                 arcu sem. Sed non sodales dui. Interdum et malesuada
@@ -166,6 +196,7 @@
                   alt="diagram_blokowy"
                   width="370"
                   height="294"
+                  srcset="images/block_diagram@2x.jpg 2x"
                 />
               </figure>
             </li>
@@ -177,6 +208,7 @@
                   alt="programista_aplikacji"
                   width="370"
                   height="294"
+                  srcset="images/mobile@2x.jpg 2x"
                 />
               </figure>
             </li>
@@ -188,6 +220,7 @@
                   alt="projektowanie_grafiki"
                   width="370"
                   height="294"
+                  srcset="images/block_diagram@2x.jpg 2x"
                 />
               </figure>
             </li>
@@ -206,6 +239,7 @@
                   width="450"
                   height="460"
                   class="img"
+                  srcset="images/pr2x.jpg 2x"
                 />
                 <figcaption class="team__description">
                   <strong>John Doe</strong>
@@ -251,6 +285,7 @@
                   width="450"
                   height="460"
                   class="img"
+                  srcset="images/fe-dev@2x.jpg 2x"
                 />
                 <figcaption class="team__description">
                   <strong>John Doe </strong>
@@ -297,6 +332,7 @@
                   width="450"
                   height="460"
                   class="img"
+                  srcset="images/marketing@2x.jpg 2x"
                 />
                 <figcaption class="team__description">
                   <strong>John Doe </strong>
@@ -342,6 +378,7 @@
                   width="450"
                   height="460"
                   class="img"
+                  srcset="images/ui@2x.jpg 2x"
                 />
                 <figcaption class="team__description">
                   <strong>John Doe</strong>
@@ -385,38 +422,38 @@
       <section class="clients">
         <div class="clients__container">
           <h2 class="clients__paragraf">Nasi klienci</h2>
-          <div class="clients__wrapper">
-            <div class="clients__box">
+          <ul class="clients__wrapper">
+            <li class="clients__box">
               <svg class="clients__icon" width="170" height="92">
                 <use href="./images/icons.svg#icon-Logo"></use>
               </svg>
-            </div>
-            <div class="clients__box">
+            </li>
+            <li class="clients__box">
               <svg class="clients__icon" width="170" height="92">
                 <use href="./images/icons.svg#icon-Logo-1"></use>
               </svg>
-            </div>
-            <div class="clients__box">
+            </li>
+            <li class="clients__box">
               <svg class="clients__icon" width="170" height="92">
                 <use href="./images/icons.svg#icon-Logo-2"></use>
               </svg>
-            </div>
-            <div class="clients__box">
+            </li>
+            <li class="clients__box">
               <svg class="clients__icon" width="170" height="92">
                 <use href="./images/icons.svg#icon-Logo-3"></use>
               </svg>
-            </div>
-            <div class="clients__box">
+            </li>
+            <li class="clients__box">
               <svg class="clients__icon" width="170" height="92">
                 <use href="./images/icons.svg#icon-Logo-4"></use>
               </svg>
-            </div>
-            <div class="clients__box">
+            </li>
+            <li class="clients__box">
               <svg class="clients__icon" width="170" height="92">
                 <use href="./images/icons.svg#icon-Logo-5"></use>
               </svg>
-            </div>
-          </div>
+            </li>
+          </ul>
         </div>
       </section>
     </main>
@@ -428,7 +465,7 @@
             ><span style="color: #ffffff">Studio</span></a
           >
 
-          <i>m. Warszawa, Aleje Jerozolimskie 21</i>
+          <p>m. Warszawa, Aleje Jerozolimskie 21</p>
 
           <a
             class="link-footer__page link-footer__page--footer"

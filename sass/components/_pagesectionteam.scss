@@ -50,7 +50,7 @@
   }
 
   .section__paragraf {
-    width: 450px;
+    min-width: 450px;
     font-family: var(--main-font);
     font-style: normal;
     font-weight: 900;
@@ -149,7 +149,7 @@
   }
 
   .section__paragraf {
-    width: 768px;
+    min-width: 768px;
     font-family: var(--main-font);
     font-style: normal;
     font-weight: 900;
@@ -281,5 +281,20 @@
   .img {
     width: 270px;
     height: 260px;
+  }
+  .section__paragraf {
+    min-width: 1200px;
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    color: #212121;
+    text-decoration: solid;
+    text-align: center;
+
+    margin: 0;
   }
 }
