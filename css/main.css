@@ -2845,26 +2845,23 @@
 @media screen and (min-width: 1200px) {
   .order {
     color: #ffffff;
+    min-width: 1200px;
     display: flex;
     align-items: center;
     justify-content: center;
     border-top: 1px solid #ececec;
-    background-image: linear-gradient(to top, rgba(0, 18, 105, 0) 0%, rgba(47, 48, 58, 0.4) 100%), url("../images/tm-tablet2.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
   }
   .order .order__container {
+    min-width: 1200px;
+    height: 600px;
     color: #ffffff;
+    background-image: linear-gradient(to top, rgba(0, 18, 105, 0) 0%, rgba(47, 48, 58, 0.4) 100%), url("../images/team.jpg");
+    background-size: cover;
+    background-position: center;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-top: 200px;
-    padding-bottom: 200px;
-    margin: 0;
-    padding-right: 0;
-    padding-left: 0;
   }
   .order__header {
     display: flex;
