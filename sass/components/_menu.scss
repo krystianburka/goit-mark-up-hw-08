@@ -2,7 +2,7 @@
   .menu-container {
     width: 450px;
     position: fixed;
-    height: 800px;
+    height: 796px;
     background-color: white;
 
     transform: scaleX(0);
@@ -18,6 +18,15 @@
     z-index: 2;
   }
 
+  .menu__box {
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+
+    padding-right: 0px;
+    margin: 0px;
+    padding: 0;
+  }
   .is-open {
     transform: scaleX(1);
     opacity: 1;
@@ -91,14 +100,17 @@
   .mobile-link--phone {
     color: #2196f3;
     font-size: 34px;
+
     &:hover {
       text-decoration: underline;
       background-color: transparent;
     }
   }
   .mobile-link--mail {
+    display: inline-block;
     color: #757575;
     font-size: 24px;
+    padding-top: 50px;
   }
 
   .menu-wrap {
@@ -106,9 +118,11 @@
     flex-direction: column;
     justify-content: flex-start;
     padding-top: 48px;
+    list-style-type: none;
   }
   .menu-wrap--contact {
     padding-top: 250px;
+    text-decoration: none;
   }
   .menu-wrap--socials {
     margin-left: 20px;

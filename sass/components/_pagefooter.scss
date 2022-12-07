@@ -212,6 +212,31 @@
     margin: 0;
     padding-top: 10px;
   }
+
+  .web--footer {
+    color: #2196f3;
+    text-decoration: none;
+
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+
+    letter-spacing: 1.19;
+  }
+
+  .studio--footer {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+
+    letter-spacing: 1.19;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
@@ -249,7 +274,6 @@
     letter-spacing: 0.03em;
     text-decoration: none;
     color: #2196f3;
-    
   }
   .footer__socialmedia {
     display: flex;
@@ -397,14 +421,37 @@
     margin: 0;
     padding-top: 10px;
   }
+  .web--footer {
+    color: #2196f3;
+    text-decoration: none;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+
+    letter-spacing: 1.19;
+  }
+
+  .studio--footer {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+
+    letter-spacing: 1.19;
+  }
 }
 
 @media screen and (min-width: 1200px) {
   .footer {
     background-color: #2f303a;
     color: #ffffff;
-    padding-top: 126px;
-    padding-bottom: 126px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     display: flex;
 
     align-items: center;
@@ -591,5 +638,29 @@
   .link__page--footer {
     color: #757575;
     margin: 0;
+  }
+
+  .web--footer {
+    color: #2196f3;
+    text-decoration: none;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+
+    letter-spacing: 1.19;
+  }
+
+  .studio--footer {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+
+    letter-spacing: 1.19;
   }
 }
