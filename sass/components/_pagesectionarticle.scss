@@ -6,6 +6,8 @@
     padding-top: 60px;
     padding-bottom: 60px;
     // background-color: aquamarine;
+    width: 100%;
+    max-width: 480px;
   }
 
   // .article__container {
@@ -31,12 +33,10 @@
   }
 
   .article__box {
-    max-width: 450px;
     display: inline-block;
   }
 
   .article__icon-box {
-    width: 450px;
     height: 120px;
     display: flex;
     justify-content: center;

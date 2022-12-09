@@ -5,16 +5,18 @@
     justify-content: center;
     padding-top: 94px;
     padding-bottom: 94px;
+    width: 100%;
+    max-width: 480px;
   }
   .clients__container {
     color: #ffffff;
     // padding-left: 15px;
     // padding-right: 15px;
-    width: 450px;
+  
   }
 
   .clients__wrapper {
-    width: 450px;
+    
     padding-left: 15px;
     padding-right: 15px;
     display: flex;

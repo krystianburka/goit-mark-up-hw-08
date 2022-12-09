@@ -4,10 +4,13 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    width: 100%;
+    max-width: 480px;
+   
   }
 
   .header__menu {
-    width: 450px;
+  
 
     padding-left: 15px;
     padding-right: 15px;

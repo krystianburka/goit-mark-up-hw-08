@@ -2,7 +2,8 @@
   .order {
     // background-color: #2f303a;
     color: #ffffff;
-
+    width: 100%;
+    max-width: 480px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -19,7 +20,6 @@
     background-position: center;
   }
   .order__container {
-    min-width: 480px;
     padding-top: 118px;
     padding-bottom: 118px;
     color: #ffffff;
@@ -32,7 +32,7 @@
   .order__header {
     display: flex;
     justify-content: center;
-    width: 365px;
+    max-width: 365px;
     height: 84px;
     text-align: center;
   }
