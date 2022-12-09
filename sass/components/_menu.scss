@@ -44,9 +44,9 @@
     }
   }
   .open-menu {
-    position: absolute;
-    top: 0;
-    right: 0;
+    position: relative;
+    top: -60px;
+    right: -260px;
     margin: 10px;
     width: 100%;
     max-width: 320px;
