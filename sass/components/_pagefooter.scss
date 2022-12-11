@@ -8,12 +8,11 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    max-width: 480px;
   }
 
   .footer__container {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 

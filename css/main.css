@@ -18,7 +18,6 @@
   .container {
     margin: 0, auto;
     width: 100%;
-    max-width: 480px;
     padding: 0 15px;
   }
 }
@@ -48,11 +47,10 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    max-width: 480px;
   }
   .footer__container {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding-left: 15px;
@@ -624,12 +622,7 @@
 }
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .header {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
     width: 100%;
-    max-width: 480px;
   }
   .header__menu {
     padding-left: 15px;
@@ -985,7 +978,6 @@
     padding-top: 94px;
     padding-bottom: 94px;
     width: 100%;
-    max-width: 480px;
   }
   .clients__container {
     color: #ffffff;
@@ -998,7 +990,7 @@
     justify-content: center;
   }
   .clients__box {
-    max-width: 150px;
+    max-width: 210px;
     max-height: 92px;
     display: flex;
     padding-right: 0px;
@@ -1162,7 +1154,12 @@
     padding-top: 60px;
     padding-bottom: 60px;
     width: 100%;
+  }
+  .article__container {
     max-width: 480px;
+    margin: 0 auto;
+    padding: 30px 15px;
+    margin-top: 40px;
   }
   .article__description {
     font-family: "Roboto";
@@ -1178,6 +1175,7 @@
   }
   .article__box {
     display: inline-block;
+    padding-bottom: 30px;
   }
   .article__icon-box {
     height: 120px;
@@ -1322,7 +1320,6 @@
     padding-bottom: 60px;
     border-top: 1px solid #ececec;
     width: 100%;
-    max-width: 480px;
   }
   .portfolio {
     color: #ffffff;
@@ -1332,7 +1329,6 @@
     margin: 0;
     gap: 0;
     width: 100%;
-    max-width: 480px;
   }
   .slider__container {
     color: #ffffff;
@@ -1623,11 +1619,13 @@
     padding-top: 94px;
     padding-bottom: 94px;
     width: 100%;
-    max-width: 480px;
   }
   .team__container {
     padding-left: 15px;
     padding-right: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
   .team__box {
     margin-bottom: 35px;
@@ -1668,6 +1666,7 @@
     font-style: normal;
     font-weight: 900;
     font-size: 44px;
+    padding-bottom: 30px;
     text-transform: uppercase;
     letter-spacing: 0.03em;
     color: #212121;
@@ -1964,7 +1963,6 @@
     left: 0;
     top: 0;
     width: 100%;
-    max-width: 480px;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.2);
     transition: cubic-bezier(250ms);
@@ -2613,7 +2611,6 @@
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .menu-container {
     width: 100%;
-    max-width: 480px;
     position: fixed;
     height: 796px;
     background-color: rgb(255, 255, 255);
@@ -2650,12 +2647,10 @@
     background-color: transparent;
   }
   .open-menu {
-    position: relative;
-    top: -30px;
-    right: -260px;
-    margin: 10px;
-    width: 100%;
-    max-width: 320px;
+    position: absolute;
+    top: 1;
+    right: 0;
+    margin: 15px;
   }
   .close-menu {
     position: absolute;
@@ -2878,7 +2873,6 @@
   }
   .nav {
     width: 100%;
-    max-width: 480px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
@@ -2967,7 +2961,6 @@
   .order {
     color: #ffffff;
     width: 100%;
-    max-width: 480px;
     display: flex;
     align-items: center;
     justify-content: center;

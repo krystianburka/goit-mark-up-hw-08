@@ -7,15 +7,14 @@
     padding-bottom: 60px;
     // background-color: aquamarine;
     width: 100%;
-    max-width: 480px;
   }
 
-  // .article__container {
-  //   max-width: 480px;
-  //   margin: 0 auto;
-  //   padding: 30px 15px;
-  //   margin-top: 40px;
-  // }
+  .article__container {
+    max-width: 480px;
+    margin: 0 auto;
+    padding: 30px 15px;
+    margin-top: 40px;
+  }
 
   .article__description {
     font-family: "Roboto";
@@ -34,6 +33,7 @@
 
   .article__box {
     display: inline-block;
+    padding-bottom: 30px;
   }
 
   .article__icon-box {
