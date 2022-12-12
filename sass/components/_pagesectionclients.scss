@@ -74,10 +74,11 @@
     color: #ffffff;
     // padding-left: 15px;
     // padding-right: 15px;
-    width: 768px;
+    width: 100%;
 
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
   }
 
@@ -167,7 +168,6 @@
   }
 
   .clients__paragraf {
-    max-width: 1200px;
     font-family: var(--main-font);
     font-style: normal;
     font-weight: 700;

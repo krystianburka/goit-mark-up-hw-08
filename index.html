@@ -202,8 +202,7 @@
                   <img
                     src="images/block_diagram.jpg"
                     alt="diagram_blokowy"
-                    width="370"
-                    height="294"
+                    class="img"
                     srcset="images/block_diagram@2x.jpg 2x"
                   />
                 </figure>
@@ -214,8 +213,7 @@
                   <img
                     src="images/mobileappdeveloper.jpg"
                     alt="programista_aplikacji"
-                    width="370"
-                    height="294"
+                    class="img"
                     srcset="images/mobile@2x.jpg 2x"
                   />
                 </figure>
@@ -226,8 +224,7 @@
                   <img
                     src="images/graphic_design.jpg"
                     alt="projektowanie_grafiki"
-                    width="370"
-                    height="294"
+                    class="img"
                     srcset="images/block_diagram@2x.jpg 2x"
                   />
                 </figure>
@@ -246,8 +243,6 @@
                   <img
                     src="images/pr.jpg"
                     alt="chłop_w_czerwonej_koszuli"
-                    width="450"
-                    height="460"
                     class="img"
                     srcset="images/pr2x.jpg 2x"
                   />
@@ -290,10 +285,8 @@
               <li class="team__box">
                 <figure class="team__figure">
                   <img
-                    src="images/frontenddeveloper.jpg"
+                    src="images/fe-dev.jpg"
                     alt="blondynka_w_okularach"
-                    width="450"
-                    height="460"
                     class="img"
                     srcset="images/fe-dev@2x.jpg 2x"
                   />
@@ -339,8 +332,6 @@
                   <img
                     src="images/marketing.jpg"
                     alt="typ_w_niebieskiej_koszuli"
-                    width="450"
-                    height="460"
                     class="img"
                     srcset="images/marketing@2x.jpg 2x"
                   />
@@ -383,10 +374,8 @@
               <li class="team__box">
                 <figure class="team__figure">
                   <img
-                    src="images/ui_designer.jpg"
+                    src="images/ui.jpg"
                     alt="chłop_w_czarnej_koszulce"
-                    width="450"
-                    height="460"
                     class="img"
                     srcset="images/ui@2x.jpg 2x"
                   />
@@ -528,28 +517,32 @@
               </div>
             </div>
           </div>
-          <form
-            class="order-form"
-            name="order-form"
-            autocomplete="on"
-            novalidate
-          >
-            <p class="form-newsletter__paragraf">zapisz się do newslettera</p>
+          <div class="form-box">
+            <form
+              class="order-form"
+              name="order-form"
+              autocomplete="on"
+              novalidate
+            >
+              <p class="form-newsletter__paragraf">zapisz się do newslettera</p>
 
-            <input
-              type="email"
-              class="form-newsletter__input"
-              name="mail"
-              placeholder="E-mail"
-            />
-          </form>
-          <div class="button-newsletter">
-            <button type="submit" class="button--newsletter">
-              <text class="form-newsletter__link" x="0" y="0">Zapisz się</text>
-              <svg class="form-newsletter__button-icon">
-                <use href="./images/icons.svg#icon-send"></use>
-              </svg>
-            </button>
+              <input
+                type="email"
+                class="form-newsletter__input"
+                name="mail"
+                placeholder="E-mail"
+              />
+            </form>
+            <div class="button-newsletter">
+              <button type="submit" class="button--newsletter">
+                <text class="form-newsletter__link" x="0" y="0"
+                  >Zapisz się</text
+                >
+                <svg class="form-newsletter__button-icon">
+                  <use href="./images/icons.svg#icon-send"></use>
+                </svg>
+              </button>
+            </div>
           </div>
         </div>
       </div>
