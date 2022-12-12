@@ -31,23 +31,10 @@
     padding-bottom: 94px;
     // background-color: aquamarine;
   }
-
-  .section__paragraf {
-    font-family: var(--main-font);
-    font-style: normal;
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.17;
-    text-transform: uppercase;
-    letter-spacing: 0.03em;
-    color: #212121;
-    text-decoration: solid;
-    text-align: center;
-    display: inline-block;
-    margin: 0;
-    padding-bottom: 50px;
+  .whatwedo__container {
+    display: flex;
+    flex-direction: column;
   }
-
   .whatwedo__box {
     margin-bottom: 35px;
     position: relative;

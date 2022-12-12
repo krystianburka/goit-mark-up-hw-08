@@ -11,22 +11,26 @@
     color: #ffffff;
     // padding-left: 15px;
     // padding-right: 15px;
+    max-width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   .clients__wrapper {
-    padding-left: 15px;
-    padding-right: 15px;
+    max-width: 100%;
+
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
   }
   .clients__box {
     max-width: 210px;
     max-height: 92px;
     display: flex;
-    padding-right: 0px;
-    padding: 0;
-    margin: 0%;
     border-radius: 10%;
     margin: 15px;
   }
@@ -46,21 +50,15 @@
   }
 
   .clients__paragraf {
-    min-width: 320px;
     font-family: var(--main-font);
     font-style: normal;
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.17;
-    text-transform: uppercase;
-    letter-spacing: 0.03em;
-    color: #212121;
-    text-decoration: solid;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.71;
     text-align: center;
-    display: flex;
-    justify-content: center;
-    margin: 0;
-    padding-bottom: 50px;
+    letter-spacing: 0.03em;
+
+    color: #212121;
   }
 }
 
@@ -69,7 +67,7 @@
     color: #ffffff;
     display: flex;
     justify-content: center;
-    padding-top: 94px;
+    padding-top: 34px;
     padding-bottom: 94px;
   }
   .clients__container {
@@ -101,10 +99,12 @@
     padding: 0;
     margin: 0%;
     border-radius: 10%;
-    margin-top: 55px;
+    margin-top: 25px;
   }
   .clients__icon {
     fill: #afb1b8;
+    width: 226px;
+    height: 92px;
     background-color: #ffffff;
     border-radius: 5%;
     border: 2px solid #afb1b8;
@@ -117,23 +117,15 @@
   }
 
   .clients__paragraf {
-    min-width: 768px;
     font-family: var(--main-font);
     font-style: normal;
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.17;
-    text-transform: uppercase;
-    letter-spacing: 0.03em;
-    color: #212121;
-    text-decoration: solid;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.71;
     text-align: center;
+    letter-spacing: 0.03em;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0;
-    padding-bottom: 50px;
+    color: #212121;
   }
 }
 
@@ -146,7 +138,7 @@
     padding-bottom: 94px;
   }
   .clients__wrapper {
-    width: 1200px;
+    max-width: 100%;
 
     display: flex;
 
@@ -175,19 +167,16 @@
   }
 
   .clients__paragraf {
-    min-width: 1200px;
+    max-width: 1200px;
     font-family: var(--main-font);
     font-style: normal;
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.17;
-    text-transform: uppercase;
-    letter-spacing: 0.03em;
-    color: #212121;
-    text-decoration: solid;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
     text-align: center;
-    display: inline-block;
-    margin: 0;
+    letter-spacing: 0.03em;
+
+    color: #212121;
     padding-bottom: 50px;
   }
 }

@@ -70,7 +70,7 @@
     display: flex;
     justify-content: center;
     padding-top: 60px;
-    padding-bottom: 45px;
+    padding-bottom: 15px;
     // background-color: aquamarine;
   }
 
@@ -100,6 +100,7 @@
   .article__box {
     max-width: 354px;
     display: inline-block;
+    padding-bottom: 30px;
   }
 
   .article__icon-box {

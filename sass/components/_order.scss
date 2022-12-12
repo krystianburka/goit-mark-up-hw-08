@@ -48,6 +48,12 @@
     align-items: center;
     justify-content: center;
     border-top: 1px solid #ececec;
+  }
+
+  .order__container {
+    min-width: 768px;
+    height: 400px;
+    color: #ffffff;
     background-image: linear-gradient(
         to top,
         rgba(0, 18, 105, 0) 0%,
@@ -57,26 +63,29 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-
-    .order__container {
-      min-width: 768px;
-      height: 400px;
-      color: #ffffff;
-
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-    }
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
-
   .order__header {
     display: flex;
     justify-content: center;
 
     width: 365px;
     height: 84px;
+
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 1.62;
+
     text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
+    color: #ffffff;
   }
 }
 
